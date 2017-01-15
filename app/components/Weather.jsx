@@ -50,7 +50,7 @@ var Weather = React.createClass({
     }
     return (
       <div>
-        <h1 className="text-centered">{title}</h1>
+        <h1 className="text-centered page-title">{title}</h1>
         <WeatherForm onNewLocation={this.handleNewLocation}></WeatherForm>
         {renderMessage()}
         {renderError()}
